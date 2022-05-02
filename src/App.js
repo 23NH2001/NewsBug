@@ -2,14 +2,17 @@ import './App.css';
 
 import React, { Component } from 'react'
 import {Navbar} from './MyComponent/Navbar';
+import News from './MyComponent/News';
 
 export default class App extends Component {
-  myName = 'Neveel';
+  
   render() {
     return (
       <>
       <div><Navbar/></div>
-      <div>Hello My name is {this.myName}</div>
+      <div>
+        <News/>
+      </div>
       </>
       
     )
