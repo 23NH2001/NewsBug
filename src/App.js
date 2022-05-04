@@ -5,7 +5,7 @@ import {Navbar} from './MyComponent/Navbar';
 import News from './MyComponent/News';
 
 export default class App extends Component {
-  
+
   render() {
     return (
       <>
